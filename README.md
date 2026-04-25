@@ -31,19 +31,3 @@ User → Streamlit UI → S3 Input Bucket → Lambda → S3 Output Bucket + Dyna
 <img width="1737" height="650" alt="Screenshot 2026-04-25 224719" src="https://github.com/user-attachments/assets/7f08dd1f-9973-49b8-9471-cbb06a08b489" />
 <img width="456" height="533" alt="Screenshot 2026-04-25 224728" src="https://github.com/user-attachments/assets/c28b4d53-5b66-4a83-98e3-9296b7089f79" />
 
-## Run Locally
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-
-## AWS Configuration
-
-This project uses AWS services including S3, Lambda, and DynamoDB.
-
-To run locally, configure AWS credentials using:
-
-```bash
-aws configure
