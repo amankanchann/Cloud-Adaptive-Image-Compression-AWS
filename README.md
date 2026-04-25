@@ -38,3 +38,12 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## AWS Configuration
+
+This project uses AWS services including S3, Lambda, and DynamoDB.
+
+To run locally, configure AWS credentials using:
+
+```bash
+aws configure
