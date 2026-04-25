@@ -30,6 +30,13 @@ User → Streamlit UI → S3 Input Bucket → Lambda → S3 Output Bucket + Dyna
 This project was deployed using Streamlit Cloud and AWS.  
 Backend services may be disabled to avoid unnecessary cloud costs.
 
+## Run Locally
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
 ## Screenshots
 <img width="1845" height="772" alt="Screenshot 2026-04-25 224830" src="https://github.com/user-attachments/assets/9249c0d2-d923-4270-b8bd-2d4beb4878e6" />
 <img width="1737" height="650" alt="Screenshot 2026-04-25 224719" src="https://github.com/user-attachments/assets/7f08dd1f-9973-49b8-9471-cbb06a08b489" />
