@@ -26,6 +26,10 @@ User → Streamlit UI → S3 Input Bucket → Lambda → S3 Output Bucket + Dyna
 - Medium images: ~40–60% reduction
 - Small images: skipped
 
+## Screenshots
+<img width="1845" height="772" alt="Screenshot 2026-04-25 224830" src="https://github.com/user-attachments/assets/9249c0d2-d923-4270-b8bd-2d4beb4878e6" />
+<img width="1737" height="650" alt="Screenshot 2026-04-25 224719" src="https://github.com/user-attachments/assets/7f08dd1f-9973-49b8-9471-cbb06a08b489" />
+<img width="456" height="533" alt="Screenshot 2026-04-25 224728" src="https://github.com/user-attachments/assets/c28b4d53-5b66-4a83-98e3-9296b7089f79" />
 
 ## Run Locally
 
@@ -34,8 +38,3 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-## Screenshots
-<img width="1845" height="772" alt="Screenshot 2026-04-25 224830" src="https://github.com/user-attachments/assets/9249c0d2-d923-4270-b8bd-2d4beb4878e6" />
-<img width="1737" height="650" alt="Screenshot 2026-04-25 224719" src="https://github.com/user-attachments/assets/7f08dd1f-9973-49b8-9471-cbb06a08b489" />
-<img width="456" height="533" alt="Screenshot 2026-04-25 224728" src="https://github.com/user-attachments/assets/c28b4d53-5b66-4a83-98e3-9296b7089f79" />
